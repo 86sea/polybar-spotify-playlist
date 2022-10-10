@@ -3,9 +3,10 @@ uses spotify web api to change/view playlists.
 Usage: 
   rename secrets.py to mysecrets.py and add your data, see https://developer.spotify.com/documentation/general/guides/authorization/
    note for base64 variable:encoded string that contains the client ID and client secret key. 
-   The field must have the format: Authorization: Basic <base64 encoded client_id:client_secret>
+   The field must have the format: Authorization: 
+   ```Basic <base64 encoded client_id:client_secret>
    can be used for general API requests
-   
+   ```
 polybar config.ini, a little bit janky as polybar doesn't support viables with exec:
 
 ```INI

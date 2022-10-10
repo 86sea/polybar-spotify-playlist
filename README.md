@@ -4,12 +4,13 @@ uses spotify web api to change/view playlists.
 
 Features: 
   
-gets a oauth key with spotifys web api,  
+refreshes oauth key with spotifys web api,  
 outputs a .ini and .json file of a users playlists,  
 change playist. (play/next/prev tracks can be controlled via playerctl)
   
-Usage:  
-  rename secrets.py to mysecrets.py and add your data, see https://developer.spotify.com/documentation/general/guides/authorization/  
+Usage:
+  use your apps redirect URI to get an application code then use curl to manually get a auth token, refresh token and set scopes you want (TODO) see https://developer.spotify.com/documentation/general/guides/authorization/ 
+  rename secrets.py to mysecrets.py and add your data,  
    note for base64 variable:
    ```encoded string that contains the client ID and client secret key. 
    The field must have the format: Authorization: 
@@ -53,6 +54,7 @@ label-close = x
 ```
    
 #TODO
+  script to get inital code
   base64 encoder  
   separate writing the .ini and .json and everything else  
   passing a URI directly    

@@ -53,8 +53,8 @@ label-open = Playlist
 label-close = x
 ```
    
-#TODO
-  script to get inital code
+#TODO  
+  script to get inital code+tokens
   base64 encoder  
   separate writing the .ini and .json and everything else  
   passing a URI directly    

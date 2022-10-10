@@ -9,7 +9,7 @@ outputs a .ini and .json file of a users playlists,
 change playist. (play/next/prev tracks can be controlled via playerctl)
   
 Usage:
-  use your apps redirect URI to get an application code then use curl to manually get a auth token, refresh token and set scopes you want (TODO) see https://developer.spotify.com/documentation/general/guides/authorization/ 
+  use your apps redirect URI to get an application code then use curl to manually get an auth token, refresh token and set scopes you want (TODO) see https://developer.spotify.com/documentation/general/guides/authorization/ 
   rename secrets.py to mysecrets.py and add your data,  
    note for base64 variable:
    ```encoded string that contains the client ID and client secret key. 

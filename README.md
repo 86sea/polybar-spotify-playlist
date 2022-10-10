@@ -54,7 +54,9 @@ label-close = x
    
 #TODO
 
-  a lot of easy optimizations.
-  new features such as view playlist that is currently being played.
-  
-  a polybar module that looks nicer.
+  separate writing the .ini and .json and everything else  
+  passing a URI directly    
+  reading from playlists.json  
+  specifying a file, and type of, to write to  
+  view playlist that is currently being played.  
+  a polybar dropdown menu module  

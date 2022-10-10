@@ -8,7 +8,7 @@ Usage:
    
 polybar config.ini, a little bit janky as polybar doesn't support viables with exec:
 
-```
+```INI
 [module/menu-apps]
 type = custom/menu
 

@@ -53,7 +53,7 @@ label-close = x
 ```
    
 #TODO
-  base64 encoder
+  base64 encoder  
   separate writing the .ini and .json and everything else  
   passing a URI directly    
   reading from playlists.json  

@@ -1,9 +1,15 @@
 # polybar-spotify-playlist
 uses spotify web api to change/view playlists.
-Features: gets a oauth key with spotifys web api, outputs a .ini and .json file of a users playlists, change playist. (play/next/prev tracks can be controlled via playerctl)
 
-Usage: 
-  rename secrets.py to mysecrets.py and add your data, see https://developer.spotify.com/documentation/general/guides/authorization/
+
+Features: 
+  
+gets a oauth key with spotifys web api,  
+outputs a .ini and .json file of a users playlists,  
+change playist. (play/next/prev tracks can be controlled via playerctl)
+  
+Usage:  
+  rename secrets.py to mysecrets.py and add your data, see https://developer.spotify.com/documentation/general/guides/authorization/  
    note for base64 variable:
    ```encoded string that contains the client ID and client secret key. 
    The field must have the format: Authorization: 

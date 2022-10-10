@@ -8,7 +8,7 @@ Usage:
    
 polybar config.ini, a little bit janky as polybar doesn't support viables with exec:
 
-'''
+```
 [module/menu-apps]
 type = custom/menu
 
@@ -37,5 +37,5 @@ menu-0-4-exec = python ~/.config/polybar/scripts/spotify_playlist/main.py '4'
 
 label-open = Playlist 
 label-close = x
-'''
+```
    

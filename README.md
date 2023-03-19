@@ -17,11 +17,10 @@ Usage:
    The field must have the format: Authorization: 
    Basic <base64 encoded client_id:client_secret>
    ```
-   -which could very easily be implemented into the code
    
    can be used for general API requests
   
-polybar module, a little bit janky as polybar doesn't support variables with exec:
+polybar module
 
 ```INI
 [module/menu-apps]
@@ -53,13 +52,3 @@ menu-0-4-exec = python ~/.config/polybar/scripts/spotify_playlist/main.py '4'
 label-open = Playlist 
 label-close = x
 ```
-   
-#TODO  
-  script to get inital code+tokens
-  base64 encoder  
-  separate writing the .ini and .json and everything else  
-  passing a URI directly    
-  reading from playlists.json  
-  specifying a file, and type of, to write to  
-  view playlist that is currently being played.  
-  a polybar dropdown menu module  
